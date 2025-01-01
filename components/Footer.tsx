@@ -1,8 +1,6 @@
 "use client";
 
-import { GithubIcon, LinkedinIcon, Facebook, FacebookIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { GithubIcon, LinkedinIcon,  FacebookIcon } from "lucide-react";
 import { motion } from 'framer-motion'
 const Footer = () => {
   return (
