@@ -2,12 +2,12 @@
 import { motion } from "framer-motion";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import Image from "next/image";
 
 const projects = [
   {
     title: "Browser Agent",
-    description:
-      "An AI-powered browser chatbot built with LangChain LangGraph Gemini_api_key and Python.",
+    description: "An AI-powered browser chatbot built with LangChain LangGraph Gemini_api_key and Python.",
     image: "/browsing.png",
     link : "https://python.org"
   },
@@ -41,7 +41,7 @@ const Projects = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 object-cover"
