@@ -18,7 +18,7 @@ const Hero= () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Hi, I'm <span className="text-gradient">Abu Bakar</span>
+          Hi, I&apos;m <span className="text-gradient">Abu Bakar</span>
         </motion.h1>
         
         <motion.p 
