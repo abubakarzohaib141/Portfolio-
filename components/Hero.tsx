@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowRight, GithubIcon, Linkedin, FacebookIcon, Github, LinkedinIcon } from 'lucide-react'
+import { ArrowRight, GithubIcon, FacebookIcon, LinkedinIcon } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 const Hero= () => {
